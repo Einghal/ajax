@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #3d0530, #920000);
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Keskittää hakukentän */
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.search-container {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.header-container {
+    display: flex; /* Asettaa joustavan säilytyksen */
+    justify-content: space-between; /* Jakaa tilaa elementtien välillä */
+    align-items: center; /* Keskittää elementit pystysuunnassa */
+    width: 100%; /* Varmistaa, että se kattaa koko alueen */
+}
+
+
+
+#movieList {
+    width: 100%;
+    max-width: 900px;
+    display: grid; /* Käytetään ruudukkoasettelua */
+    grid-template-columns: repeat(5, 1fr); /* Viisi korttia per rivi */
+    gap: 20px; /* Etäisyys korttien välillä */
+    margin-top: 20px; /* Etäisyys hakukentästä */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+#theaterSelect, #searchInput {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    box-sizing: border-box; /* Varmistaa yhtenäisen leveyden */
+    max-width: 400px; /* Asettaa maksimi leveyden kentille */
+}
+
+.movie {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.movie h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.movie p {
+    font-size: 14px;
+    color: #666;
+}
+
+.showtime {
+    font-weight: bold;
+    color: #444;
+}
+
+
