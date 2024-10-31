@@ -15,7 +15,7 @@ Eemeli Lehessalo
 
 
 ## About The App
-[Name of project] is an app that ...
+[AJAX-projekti] on sivu mistä voi hakea finnkinon esityslistan ja missä teatterissa elokuvia näytetään.
 
 ## Screenshots
 ![ajax](ajax-projekti/ajax.png)
